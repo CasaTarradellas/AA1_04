@@ -18,6 +18,11 @@ public:
 		id = name;
 	}
 
+	std::string GetID()
+	{
+		return id;
+	}
+
 	void InsertCard(const Card& card)
 	{
 		std::list<Card>::iterator it;
