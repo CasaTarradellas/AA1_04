@@ -5,8 +5,6 @@
 
 class Game
 {
-	
-	
 	std::stack<Card> deckDiscarted;
 
 public:
